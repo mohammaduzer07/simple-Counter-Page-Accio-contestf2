@@ -44,6 +44,11 @@
             color: black;
             border: none;
         }
+        #counter_value{
+            border-bottom: 1px solid white;
+            padding-bottom: 10px;
+            width: fit-content;
+        }
         .reset{
             width: 6rem; 
             padding: 8px;
@@ -57,20 +62,13 @@
         .container {
             margin: 3rem;
         }
+        .decrement,.increment{
+            margin-right: 20px;
+        }
     </style>
 </head>
 
 <body>
-    <!-- <div class="container">
-        <h1>Counter Using HTML</h1>
-        <p id="counter-value">Your current count is: <span></span><br></p>
-        <br><br>
-        <div class="btn">
-            <button class="Increment" id="btn1" type="button">Decrement</button>
-            <button class="Decrement" id="btn1" type="button">Increment</button>
-            <button class="reset" id="btn2" type="button">Clear</button>
-        </div>
-    </div> -->
     <div class="container">
         <h1>Counter Using HTML</h1>
         <p id="counter_value">Your current count is: <span>0</span></p>
@@ -83,6 +81,16 @@
     </div>
 
     <script src="./script.js"></script>
+    <!-- <div class="container">
+        <h1>Counter Using HTML</h1>
+        <p id="counter-value">Your current count is: <span></span><br></p>
+        <br><br>
+        <div class="btn">
+            <button class="Increment" id="btn1" type="button">Decrement</button>
+            <button class="Decrement" id="btn1" type="button">Increment</button>
+            <button class="reset" id="btn2" type="button">Clear</button>
+        </div>
+    </div> -->
 </body>
 
 </html>
